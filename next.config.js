@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     incrementalCacheHandlerPath: require.resolve('./cache-handler-s3-custom.js'),
+    isrMemoryCacheSize: 0,
   },
 };
 
